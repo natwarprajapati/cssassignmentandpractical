@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    height: 600px;
+    width: 90%;
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0%, 100% 61%, 49% 78%, 0 58%);
+    position: relative;
+    z-index: 1;
+     margin-left: 50px;
+}
+/* -------------------navbar css-------------------- */
+.nav{
+    
+    height: 60px;
+    width: 100%;
+    display:flex;
+}
+.logo{
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    margin-left: 300px;
+    letter-spacing: 15px;
+    border: 2px solid white;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+span{
+    background-color:black;
+    color: rgb(241, 241, 185);
+    font-size: 25px;
+    
+}
+ul{
+    margin-left: 220px;
+}
+
+li,a{
+    color: white;
+    margin-left: 15px;
+    display: inline;
+    text-decoration: none;
+    font-size: larger;
+} 
+a:hover{
+    color: yellowgreen;
+    cursor: pointer;
+}
+/* ----------------------------main page text and botton css---------------- */
+.text{
+    font-size: 72px;
+    letter-spacing: 7px;
+    margin-top: 20px;
+    color: aqua;
+    font-weight: 700;
+    text-align: center;
+}
+.text2{
+    font-size: 22px;
+    letter-spacing: 7px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.text3{
+    font-size: 16px;
+margin-top: 60px;
+color: white;
+font-weight: 700;
+text-align: center;
+}
+.btn{
+    font-size: 12px;
+    width: 150px;
+    height: 50px;
+margin-top: 20px;
+color: white;
+background-color: transparent;
+text-align: center;
+margin-left: 500px;
+}
+.btn2{
+    font-size: 12px;
+    width: 150px;
+    height: 50px;
+margin-top: 20px;
+color:white;
+background-color: transparent;
+text-align: center;
+margin-left: 40px;
+}
+.btn:hover{
+    background-color: royalblue;
+}
+/* ------------------------main page ancher icon css-------------- */
+.icon{
+  position: absolute;
+     border: 2px solid rgb(247, 9, 9);
+     color: red;
+     margin-top: -145px;
+     margin-left: 680px;
+     background-color: #fff;
+     z-index: 3;
+     border-radius: 50px;
+}
+/* ------------------------footer css--------------------------- */
+.foot{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    margin-top: -70px;
+    justify-content: space-around;
+    display: flex;
+    
+    
+}
+ .foot2 .fa-regular,.fa-crop-simple{
+    height: 49px;
+    width: 59px;
+    margin-top: 12px;
+    font-size: 40px;   
+    line-height: 40px;
+    color: mediumpurple;  
+}
+.foot2 h3:hover{
+    color: #fc0808;
+    text-decoration: underline red;
+}
+
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="nav">
+           <div class="logo"><span>L</span>ogo</div>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">about us</a></li>
+                <li><a href="">potrfolio</a></li>
+                <li><a href="">pricing</a></li>
+                <li><a href="">team</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </div>
+        <!-- -----------main page text----------------- -->
+        <p class="text2">our clint are first prority</p>
+        <p class="text">welcome to sky</p>
+       
+       <p class="text3">Lorem  Nostrum cumque excepturi <br> commodi sint, amet  Debitis aut, recusandae voluptatem dolore similique consequuntur qui eos exercitationem!</p>
+       <button class="btn">GET STARTED NOW</button>
+       <BUtton class=" btn btn2"> LERN MORE</BUtton>
+    </div>
+    <!-------------------------main page  ancher icon--------  -->
+        <div class="icon"> 
+          <i class="fa-solid fa-anchor fa-lg"></i>
+        </div>
+    <!-------------------------footer --------------------->
+    <div  class="foot" > 
+        <div class="foot2">
+             <i  class="fa-solid fa-crop-simple fa-xl"></i>
+             <h3>sleek design</h3>
+             <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Quam, at.</p>
+        </div>
+        <div class="foot2">   
+            <i class="fa-regular fa-heart fa-xl"></i>
+             <h3>clean code</h3>
+             <p>Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit. Quam, at.</p>
+        </div>
+        <div class="foot2">  
+             <i class="fa-regular fa-lightbulb fa-xl"></i>
+             <h3>sleek design</h3>
+             <p>Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit. Quam, at.</p>
+         creative ideas
+        </div>
+         <div class="foot2">  
+             <i class="fa-regular fa-comments fa-xl"></i>
+             <h3>free support</h3>
+             <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Quam, at.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
